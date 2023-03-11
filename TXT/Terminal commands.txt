@@ -1,0 +1,282 @@
+Do the things:
+sudo raspi-config
+
+touch .hushlogin
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+wget https://darkness-bright.github.io/rc/linux.bashrc && mv linux.bashrc .bashrc
+# Replace /home/markz/.bashrc and /root/.bashrc
+
+sudo nano /usr/share/themes/PiXflat/openbox-3/themerc
+border.radius: 0
+sudo chattr +i /usr/share/themes/PiXflat/openbox-3/themerc
+
+sudo nano /etc/xdg/openbox/lxde-pi-rc.xml
+
+sudo apt install nodejs npm apache2 php libapache2-mod-php
+
+# Install pi-hole!
+
+Digital clock:
+%I:%M %p  <ATLUE v3.1.0>
+
+# uninstall all pip packages:
+pip freeze | cut -d "@" -f1 | xargs pip uninstall -y
+
+
+# Install aaPanel, and MANY OTHER VARIOUS THINGS THAT ARE GOOD TO HAVE BUT MIGHT NOT NEED
+wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && bash install.sh
+
+See https://www.aapanel.com/new/download.html
+
+
+sudo nano /etc/ssh/ssh_config
+Host *
+ServerAliveInterval 9
+
+
+ClientAliveInterval 9
+TCPKeepAlive yes
+ClientAliveCountMax 1
+
+sudo mount.cifs //192.168.0.1/mark /home/markz/Desktop/mark/ -o username=mark,password=mark123,vers=1.0
+
+sudo mount /dev/sda1 /media
+
+# NPM modules
+npm install formidable
+
+aaPanel Internet Address: http://123.3.99.135:7800/aapanel
+aaPanel Local Address: http://192.168.0.171:7800/aapanel
+
+############################
+# List of useful things
+############################
+
+sudo dd bs=5M if=/dev/disk4 of=/Volumes/Storage/Backups/backup.img status=progress
+
+# Use man <something> to see the instructions.
+1. diskutil
+2. python3
+2.1 wormhole: apt install magic-wormhole && man wormhole
+3. tree
+4. dd
+5. apt
+6. git
+
+
+# Terminal clear
+clear
+
+# Print current directory
+pwd
+
+# List all things in current folder
+ls
+
+# Make folder
+mkdir foldername
+
+# Make file
+touch file
+
+# Preview file
+more file.txt
+
+# Edit file
+nano file.txt
+
+# Delete file
+rm file.txt
+
+# Delete folder
+rmdir foldername
+
+# Delete folder, and all things in the folder
+rm -r foldername
+
+# Move or rename something
+mv file.txt file.py
+
+# Copy a file to a new folder
+cp file.txt foldername
+
+# See all files and folders in a folder
+find
+
+# Find a specific file
+find -name file.txt
+
+# Go up to parent folder
+cd ..
+
+# Go up three parent folders
+cd ../../..
+
+# Switch users
+su <user>
+
+# See storage partitions
+lsblk
+
+# Change owner of a directory to this user
+sudo chown -R 1001:1001 "<directory>"
+
+# Mount a storage partition
+sudo mount /dev/<partition id> /mnt
+
+//
+CPU max frequency: sudo cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq
+
+Change autostart settings [: cd /home/pi/.config/lxsession/LXDE-pi/
+: sudo nano autostart]
+
+Change keyboard layout and languages: sudo nano /etc/default/keyboard
+Change keyboard shortcuts: sudo nano /etc/xdg/openbox/lxde-pi-rc.xml
+
+Simulate keyboard & mouse interactions tool: sudo apt install xdotool
+
+Finding help on a command: man <command>
+Give root privileges to pi and filemanager: sudo pcmanfm
+
+Show history of terminal commands [
+Show all history: history
+Show last 20: history | tail -n 20
+Clear all history: history -c]
+
+Measure CPU temperature: sudo vcgencmd measure_temp
+//
+
+
+
+
+
+############################
+# PostgreSQL
+############################
+# Note: no forgetting semicolons
+
+
+# Switch to user "postgres"
+sudo su postgres
+
+# Start PostgreSQL
+psql
+
+# Data types:
+Integer: INT
+String: VARCHAR
+Limited string: VARCHAR(<stringlength>)
+
+############################
+# Database
+
+# List all databases
+\l
+
+# Create a database
+CREATE DATABASE <database>;
+
+# Rename database
+ALTER DATABASE <database> RENAME TO <database>;
+
+# Delete database
+DROP DATABASE <database>;
+
+# Connect to a database
+\c <database>
+
+############################
+# Table
+
+# Display database tables
+\d
+
+# Create a database table
+CREATE TABLE <table>();
+
+# Rename a table
+ALTER TABLE <table> RENAME TO <table>;
+
+# Delete a table
+DROP TABLE <table>;
+
+# Clear all content in table:
+TRUNCATE TABLE <table>;
+
+# View table column details
+\d <table>
+
+# View table contents
+SELECT <column> FROM <table>;
+
+############################
+# Column
+
+# Add a new column for table
+ALTER TABLE <table> ADD COLUMN <column> <DATATYPE>;
+
+# Add a new column for table with default value
+ALTER TABLE <table> ADD COLUMN <column> <DATATYPE> default <value>;
+
+# Set a column as the primary key
+ALTER TABLE <table> ADD PRIMARY KEY(<column>);
+
+# Rename column
+ALTER TABLE <table> RENAME COLUMN <column> TO <column>;
+
+# Change column datatype
+ALTER TABLE <table> ALTER COLUMN <column> <datatype>;
+
+# Add NOT NULL constraint
+ALTER TABLE <table> ALTER COLUMN <column> SET NOT NULL;
+
+# Make column unique (each row needs different values for the column)
+ALTER TABLE <table> ADD CONSTRAINT constraint_name UNIQUE (<column>);
+
+# Delete column
+ALTER TABLE <table> DROP COLUMN <column>;
+
+# Foreign key
+ALTER TABLE table_name ADD FOREIGN KEY(column_name) REFERENCES referenced_table(referenced_column);
+
+############################
+# Row
+
+# Insert row
+INSERT INTO <table>(column1,column2) VALUES(value1,value2);
+
+# Update row
+UPDATE <table> SET <column1> = <value1>, <column2> = <value2> WHERE <condition>;
+
+# Delete rows from table:
+DELETE FROM <table> WHERE <condition>;
+
+############################
+# Selection
+
+# Functions
+COUNT()
+AVG()
+SUM()
+
+# Common selection formula
+SELECT <column1>, <column2> FROM <table> WHERE <condition> ORDER BY <ASC/DESC>;
+
+# If you don't want duplicates
+SELECT DISTINCT <column> FROM <table> WHERE <condition> ORDER BY <ASC/DESC>;
+
+############################
+# Conditions
+
+# Regular expressions
+WHERE <value> LIKE %so_p%
+%: Wild card
+_: Single character wild card
+
+# Within a range
+WHERE <value> BETWEEN 10 AND 20
+
+# Multiple choice
+WHERE <value> IN ('Germany','Japan','UK')
+
+

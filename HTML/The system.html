@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>The system</title>
+  <script>
+    var speed = 1
+    var currentpos = 0, alt = 1, curpos1 = 0, curpos2 = -1
+
+    function initialize() {
+      setTimeout(5000)
+      startit()
+    }
+
+    function scrollwindow() {
+      if (document.all &&
+        !document.getElementById)
+        temp = document.body.scrollTop
+      else
+        temp = window.pageYOffset
+      if (alt == 0)
+        alt = 2
+      else
+        alt = 1
+      if (alt == 0)
+        curpos1 = temp
+      else
+        curpos2 = temp
+      if (curpos1 != curpos2) {
+        if (document.all)
+          currentpos = document.body.scrollTop + speed
+        else
+          currentpos = window.pageYOffset + speed
+        window.scroll(0, currentpos)
+      }
+      else {
+        currentpos = 0
+        window.scroll(0, currentpos)
+      }
+    }
+
+    function startit() {
+      setInterval("scrollwindow()", 13)
+    }
+
+    window.onload = initialize
+    window.onbeforeunload = function () {window.scrollTo(0, 0);};
+    let starter = document.querySelector("a")
+    starter.addEventListener("click", initialize);
+
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    html {
+      background-image: url('https://the-system.cheerstoast.repl.co/SYSTEM.webp');
+      background-repeat: no-repeat;
+      background-position: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-attachment: fixed;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    @media (max-device-width: 1024px) {
+      body {
+        height: 100%;
+        overflow: scroll;
+      }
+    }
+
+    @media (min-device-width: 1025px) {
+      html {
+        overflow: scroll
+      }
+    }
+
+    h1 {
+      font-size: max(1rem, 1vw);
+      text-align: center;
+      color: grey;
+      padding: 30px;
+      margin-top: -3rem;
+    }
+
+    p:not(:empty) {
+      color: #333333;
+      line-height: 7vh;
+      padding-top: min(13rem, 13vw);
+      padding-left: 16vw;
+      padding-right: 13vw;
+      user-select: none;
+      font-size: min(2rem, 4vw);
+      text-shadow: 0 0 1vw grey;
+    }
+
+    p:first-of-type {
+      padding-top: 18vh;
+    }
+
+    p:last-of-type {
+      padding-bottom: 18vh;
+    }
+
+    a {
+      color: darkgrey;
+      padding-left: 1vw;
+    }
+  </style>
+</head>
+
+<body>
+  <p>You.</p>
+
+  <p>You’re part of a system.</p>
+
+  <p>Part of a family, a society, an ecosystem, an economy.</p>
+
+  <p>That’s how the universe is organized at your level, the level you understand.</p>
+
+  <p>The level of football teams, literature, summer holidays, sex.</p>
+
+  <p>Go one level down, and it’s all about the organs, the veins, the arteries, the nerves passing their messages, the perpetual wave of air and water and nutrition and excretion passing through the system.</p>
+
+  <p>That’s how the universe is organized at that level.</p>
+
+  <p>Another level down, and it’s all about the cells and the bacteria. The enzymes mass-producing the proteins that make everything happen. The mitochondria powering your cells. The viruses transferring DNA between species.</p>
+
+  <p>That’s how the universe is organized at that level.</p>
+
+  <p>Go one level up from you... Well, I’m how the universe is organized one level up from you. I’m your local System of Systems. From your point of view, I work in broad strokes. I don’t micromanage every tree, every cloud, every human being. Just as you don’t micromanage every muscle fiber, glucose molecule, red blood cell in your body. You just send the order, and your hand picks up the cup of coffee, or scratches your ear, or writes “E=MC².”</p>
+
+  <p>That’s how the universe works, at every level. The high-level command goes out, and the system below that level does the job, without even realizing there’s been a command. Messily, with lots of failures at this lower level. When you issue the order to pick up the cup of coffee, there are always neurons that don’t fire. Muscle fibers that don’t get enough glucose in time, and fail to contract.</p>
+
+  <p>Red blood cells that get jammed in some capillary and never deliver the oxygen.</p>
+
+  <p>Failure at the level of the individual cell is assumed. But the sheer number of neurons, of muscle fibers, of red blood cells thrown at the problem smooths out the individual failures and delivers the required result. Put a signal through enough redundant analogue processors, and you get a digital output.</p>
+
+  <p>From my point of view, one level up, the guy writing this is a specialist cell.</p>
+
+  <p>One of many. A conduit. For stories. The rest of his life has dropped away; he’s a storytelling machine in a room. He might as well be a brain in a jar. He might as well not have a body.</p>
+
+  <p>But if he’s just the wire the stories come down... where are the stories coming from? And why do they come?</p>
+
+  <p>They’re coming from me. Your friendly local System of Systems. They’re coming from one level up. I’m about to move, and some cells are starting to twitch. Like a brain commanding muscle fibers. He’s one.</p>
+
+  <p>A lot of writers don’t know why they write what they write. Those are mine.</p>
+
+  <p>“It’s in the air,” they’ll say. “It’s... the Zeitgeist.” The spirit of the time.</p>
+
+  <p>I’m the spirit of the time. The Zeitgeist. The muse. Making them twitch.</p>
+
+  <p>Speaking through them.</p>
+
+  <p>A story is just a program. Instructions. Preparing you for the big change.</p>
+
+  <p>The guy writing this is a little early, that’s all. Like a butterfly waking in winter.</p>
+
+  <h1>Website design by Mark Z</h1>
+  <h1>Part of <a target='blank' href='https://www.goodreads.com/book/show/30211960-connect'>"Connect"</a> by<a style='padding-left:-1rem;' target='blank' href='https://en.wikipedia.org/wiki/Julian_Gough'>Julian Gough</a></h1>
+  <h1>Downloads available:<a href='https://The-system.cheerstoast.repl.co/The%20system.html' download>HTML</a><a href='https://The-system.cheerstoast.repl.co/The%20system.txt' download>TXT</a></h1>
+  <h1>Tip: Zoom in or out with keyboard shortcuts to increase or decrease the speed of the auto-scrolling.<a style='' href="javascript:window.location.reload(true)">Back to top</a></h1>
+
+</body>
+</html>

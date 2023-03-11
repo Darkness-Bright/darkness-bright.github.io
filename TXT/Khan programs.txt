@@ -1,0 +1,14 @@
+Drones
+https://www.khanacademy.org/computer-programming/shot-masters/5757931277041664/embedded?editor=no&buttons=yes&author=yes&embed=yes&height=600&width=600
+
+Unfriendly skies
+https://www.khanacademy.org/computer-programming/unfriendly-skies-game/5528814062452736/embedded?editor=no&buttons=yes&author=yes&embed=yes&height=600&width=600
+
+Mini putt
+https://www.khanacademy.org/computer-programming/mini-putt/5995007307677696/embedded?editor=no&buttons=yes&author=yes&embed=yes&height=400&width=400
+
+Khanemon
+https://www.khanacademy.org/computer-programming/khanmon/5801856548274176/embedded?editor=no&buttons=yes&author=yes&embed=yes&height=400&width=400
+
+Asteroids
+https://www.khanacademy.org/computer-programming/asteroids-game/5159880633139200/embedded?editor=no&buttons=yes&author=yes&embed=yes&height=600&width=600
