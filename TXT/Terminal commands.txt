@@ -1,11 +1,6 @@
 Do the things:
 sudo raspi-config
 
-touch .hushlogin
-wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
-wget https://darkness-bright.github.io/rc/linux.bashrc && mv linux.bashrc .bashrc
-# Replace /home/markz/.bashrc and /root/.bashrc
-
 sudo nano /usr/share/themes/PiXflat/openbox-3/themerc
 border.radius: 0
 sudo chattr +i /usr/share/themes/PiXflat/openbox-3/themerc
@@ -52,7 +47,7 @@ aaPanel Local Address: http://192.168.0.171:7800/aapanel
 # List of useful things
 ############################
 
-sudo dd bs=5M if=/dev/disk4 of=/Volumes/Storage/Backups/backup.img status=progress
+sudo dd bs=5M if=/dev/disk4 of=/ status=progress
 
 # Use man <something> to see the instructions.
 1. diskutil
