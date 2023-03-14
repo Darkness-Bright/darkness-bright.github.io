@@ -1,0 +1,138 @@
+<html>
+<head>
+    <title data-i18n="__MSG_eq_popup_title__"></title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+<body>
+<div class="component">
+    <aside>
+        <div class="preamp">
+            <label>Volume</label>
+        </div>
+        <div id="volumeController" class="sliders" style="padding-bottom: 15px">
+            <div class="range-slider" style="width: 100px">
+                <input type="range" orient="vertical" min="0" step="1" max="100" value="25" id="volume" class="volume"/>
+                <div class="range-slider__bar" style="left: 48px"></div>
+                <div class="range-slider__thumb" style="left: 40px"></div>
+            </div>
+        </div>
+
+        <div id="onOff">
+            <button id="power" class="off mybutton" translate="power_off">powerOff</button>
+        </div>
+    </aside>
+    <main>
+        <div class="options">
+           <a href="options.html"> <img src="./assets/icons/icons8-settings-250.png" alt="" width="20px" height="20px"></a>
+        </div>
+            
+        <div class="presets">
+            <label translate="eq_popup_preset">Presets:</label>
+            <select name="Custom" id="preset"></select>
+            <button class="reset" id="reset" translate="eq_popup_btn_reset">Reset</button>
+            <button class="save" id="save"translate="eq_popup_btn_save"> Save</button>
+        </div>
+        <div class="sliders" id="sliders">
+            <svg preserveAspectRatio="none" viewBox="0 0 140 100">
+                <path d="" class="line-shadow"></path>
+                <path d="" class="line"></path>
+            </svg>
+
+            <div class="range-slider">
+                <input type="range" orient="vertical" min="0" step="0.01" max="100" value="0" data-eq="1"
+                       data-eq-name="twenty" class="equalizer"/>
+                <div class="range-slider__bar"></div>
+                <div class="range-slider__thumb"></div>
+            </div>
+
+            <div class="range-slider">
+                <input type="range" orient="vertical" min="0" step="0.01" max="100" value="0" data-eq="2"
+                       data-eq-name="fifty" class="equalizer"/>
+                <div class="range-slider__bar"></div>
+                <div class="range-slider__thumb"></div>
+            </div>
+
+            <div class="range-slider">
+                <input type="range" orient="vertical" min="0" step="0.01" max="100" value="0" data-eq="3"
+                       data-eq-name="oneHundred" class="equalizer"/>
+                <div class="range-slider__bar"></div>
+                <div class="range-slider__thumb"></div>
+            </div>
+
+            <div class="range-slider">
+                <input type="range" orient="vertical" min="0" step="0.01" max="100" value="0" data-eq="4"
+                       data-eq-name="twoHundred" class="equalizer"/>
+                <div class="range-slider__bar"></div>
+                <div class="range-slider__thumb"></div>
+            </div>
+
+            <div class="range-slider">
+                <input type="range" orient="vertical" min="0" step="0.01" max="100" value="0" data-eq="5"
+                       data-eq-name="fiveHundred" class="equalizer"/>
+                <div class="range-slider__bar"></div>
+                <div class="range-slider__thumb"></div>
+            </div>
+
+            <div class="range-slider">
+                <input type="range" orient="vertical" min="0" step="0.01" max="100" value="0" data-eq="6"
+                       data-eq-name="oneThousand" class="equalizer"/>
+                <div class="range-slider__bar"></div>
+                <div class="range-slider__thumb"></div>
+            </div>
+
+            <div class="range-slider">
+                <input type="range" orient="vertical" min="0" step="0.01" max="100" value="0" data-eq="7"
+                       data-eq-name="twoThousand" class="equalizer"/>
+                <div class="range-slider__bar"></div>
+                <div class="range-slider__thumb"></div>
+            </div>
+            <div class="range-slider">
+                <input type="range" orient="vertical" min="0" step="0.01" max="100" value="0" data-eq="8"
+                       data-eq-name="fiveThousand" class="equalizer"/>
+                <div class="range-slider__bar"></div>
+                <div class="range-slider__thumb"></div>
+            </div>
+            <div class="range-slider">
+                <input type="range" orient="vertical" min="0" step="0.01" max="100" value="0" data-eq="9"
+                       data-eq-name="tenThousand" class="equalizer"/>
+                <div class="range-slider__bar"></div>
+                <div class="range-slider__thumb"></div>
+            </div>
+            <div class="range-slider">
+                <input type="range" orient="vertical" min="0" step="0.01" max="100" value="0" data-eq="10"
+                       data-eq-name="twentyThousand" class="equalizer"/>
+                <div class="range-slider__bar"></div>
+                <div class="range-slider__thumb"></div>
+            </div>
+        </div>
+        <div class="sliders" id="status">
+            <div id="tabname" translate="block_capture">You've already captured one tab</div>
+            <div id="actions"
+                 style="height: 100px;color: #8e8e9b;font-weight: 700;border-color: #4F4F62;background: transparent; text-align: right">
+                <button class="mybutton" id="gotoTab" translate="eq_show_tab">Go to tab</button>
+                <button class="mybutton" id="powerIcon" translate="eq_capture_tab">Capture this tab</button>
+            </div>
+        </div>
+        <! -- Popup change Presets -->
+        <div align="center" class="fond">  
+            <div class="fond_content">
+                 <span class="close">&times;</span>
+            <div class="presets">
+                <label translate="eq_popup_preset">Presets Name:</label>
+                <input type="text" name="Custom" id="preset" class="save_input">
+                <button class="save_as" id="save_as" translate="eq_popup_btn_save">Save</button>
+            </div> 
+            </div>
+         </div>
+        <! --End Popup Change Presets -->
+    </main>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/Core.js"></script>
+<script src="js/Instance.js"></script>
+<script src="volume.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

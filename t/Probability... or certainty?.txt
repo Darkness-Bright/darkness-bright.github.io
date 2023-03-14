@@ -1,0 +1,15 @@
+Probability is a subject that spans a large range of subjects including mathematics, physics, and psychology. In some books, the revolutions in computing probabilities are a fascinating part of the book. 
+
+Asimov has described in his books someone who has invented a new field of study - psycho-history. He suggests that while a person's actions are unpredictable, the actions of a large number of people could be predicted with enough data and computing power, along with the usage of psychology. For a few decades, the plan has worked magically, until the time when the mutants, robots and united spirits' actions had changed the course of some events and ultimately proved the prediction wrong.
+
+In "The hitchiker's guide to the galaxy", the "infinite improbability drive" has been designed, and it has the ability to make anything happen. That is, if you happen to know the exact probability of the event happening.
+
+Or in "The matrix", the whole world is a simulation. That implies that all we conceive are numbers, code that has perception but not enough to realize its situation, destined to resolve in a certain outcome.
+
+But, probability has always been a nebulous concept. We think that we control ourselves do things, but, is it really?
+
+Consider yourself flipping a coin. How do you know what you'll get? It's all physics. A split second before the coin landed you took a photo. The coin was showing tails. So what will the coin show in the end? Most likely tails, but there's that possibility that it might bounce up a bit and flip to heads. You never really know. But if, you knew how dense the air is, the mass of the coin, the material the ground is made of, what angle you tossed the coin at, the center of your force, and the wind conditions, you could do some calculations on paper to get a very good prediction of what you will get. It's not perfect, cause, there's the possibility that a bird came and snatched the coin before it could land.
+
+Now suppose there's a simulation of the whole earth, percise to every atom. You zoom in and find a person deciding to flip a coin. With every atom digitized and all physical laws in mind, the computer would make an absolutely correct prediction of whether the coin would be heads or tails. Do you think the computer would simulate the brain waves and signals going on in that person's brain? Surely. In fact, it would be able to predict everything that would happen in the simulation. Now for the important question: is the result of that flip of the coin a probability, or a certainty?
+
+It's a certainty.

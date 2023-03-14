@@ -1,0 +1,104 @@
+{
+  "eq_name": {
+    "message": "Sound Equalizer - Audio EQ"
+  },
+  "eq_shortname": {
+    "message": "Sound Equalizer"
+  },
+  "eq_description": {
+    "message": "Lett å bruke lydutjevning med volumkontroll og musikkgenres forhåndsinnstillinger."
+  },
+  "eq_default_title": {
+    "message": "Sound Equalizer"
+  },
+  "eq_popup_preset": {
+    "message": "Presets:"
+  },
+  "eq_popup_btn_reset": {
+    "message": "tilbakestille"
+  },
+  "eq_popup_btn_save": {
+    "message": "Save"
+ },
+  "eq_popup_title": {
+    "message": "Equalizer preset"
+  },
+  "eq_show_tab": {
+    "message": "Gå til fanen"
+  },
+  "eq_capture_tab": {
+    "message": "Ta tak i denne kategorien"
+  },
+  "custom": {
+    "message": "Custom"
+  },
+  "acoustic": {
+    "message": "Acoustic"
+  },
+  "bassBooster": {
+    "message": "Bass Booster"
+  },
+  "bassReducer": {
+    "message": "Bass Reducer"
+  },
+  "classical": {
+    "message": "Classical"
+  },
+  "dance": {
+    "message": "Dance"
+  },
+  "electronic": {
+    "message": "Electronic"
+  },
+  "jazz": {
+    "message": "Jazz"
+  },
+  "latin": {
+    "message": "Latin"
+  },
+  "loudness": {
+    "message": "Loudness"
+  },
+  "lounge": {
+    "message": "Lounge"
+  },
+  "piano": {
+    "message": "Piano"
+  },
+  "pop": {
+    "message": "Pop"
+  },
+  "rnb": {
+    "message": "Rnb"
+  },
+  "club": {
+    "message": "Club"
+  },
+  "rock": {
+    "message": "Rock"
+  },
+  "smallSpeakers": {
+    "message": "Small Speakers"
+  },
+  "spokenWord": {
+    "message": "Spoken Word"
+  },
+  "trebleBooster": {
+    "message": "Treble Booster"
+  },
+  "trebleReducer": {
+    "message": "Treble Reducer"
+  },
+  "vocalBooster": {
+    "message": "Vocal Booster"
+  },
+  "power_off": {
+    "message": "OFF"
+  },
+  "power_on": {
+    "message": "ON"
+  },
+  "block_capture": {
+    "message": "Du har allerede tatt en fane"
+  }
+}

@@ -1,0 +1,104 @@
+{
+   "acoustic": {
+      "message": "Acoustic"
+   },
+   "bassBooster": {
+      "message": "Bass Booster"
+   },
+   "bassReducer": {
+      "message": "Bass Reducer"
+   },
+   "block_capture": {
+      "message": "ನೀವು ಈಗಾಗಲೇ ಒಂದು ಟ್ಯಾಬ್ ಅನ್ನು ಸೆರೆಹಿಡಿದಿದ್ದೀರಿ"
+   },
+   "classical": {
+      "message": "Classical"
+   },
+   "club": {
+      "message": "Club"
+   },
+   "custom": {
+      "message": "Custom"
+   },
+   "dance": {
+      "message": "Dance"
+   },
+   "electronic": {
+      "message": "Electronic"
+   },
+   "eq_capture_tab": {
+      "message": "ಈ ಟ್ಯಾಬ್ ಅನ್ನು ಸೆರೆಹಿಡಿಯಿರಿ"
+   },
+   "eq_default_title": {
+      "message": "Sound Equalizer"
+   },
+   "eq_description": {
+      "message": "ಪರಿಮಾಣ ನಿಯಂತ್ರಣ ಮತ್ತು ಸಂಗೀತ ಪ್ರಕಾರಗಳ ಪೂರ್ವನಿಗದಿಗಳೊಂದಿಗೆ ಆಡಿಯೊ ಸರಿಸಮಾನವನ್ನು ಬಳಸಲು ಸುಲಭವಾಗಿದೆ."
+   },
+   "eq_name": {
+      "message": "ಸೌಂಡ್ ಈಕ್ವಲೈಜರ್"
+   },
+   "eq_popup_btn_reset": {
+      "message": "ಮರುಹೊಂದಿಸಿ"
+   },
+   "eq_popup_btn_save": {
+      "message": "Save"
+   },
+   "eq_popup_preset": {
+      "message": "ಪೂರ್ವನಿಗದಿಗಳು:"
+   },
+   "eq_popup_title": {
+      "message": "Equalizer preset"
+   },
+   "eq_shortname": {
+      "message": "Sound Equalizer"
+   },
+   "eq_show_tab": {
+      "message": "ಟ್ಯಾಬ್ಗೆ ಹೋಗಿ"
+   },
+   "jazz": {
+      "message": "Jazz"
+   },
+   "latin": {
+      "message": "Latin"
+   },
+   "loudness": {
+      "message": "Loudness"
+   },
+   "lounge": {
+      "message": "Lounge"
+   },
+   "piano": {
+      "message": "Piano"
+   },
+   "pop": {
+      "message": "Pop"
+   },
+   "power_off": {
+      "message": "OFF"
+   },
+   "power_on": {
+      "message": "ON"
+   },
+   "rnb": {
+      "message": "Rnb"
+   },
+   "rock": {
+      "message": "Rock"
+   },
+   "smallSpeakers": {
+      "message": "Small Speakers"
+   },
+   "spokenWord": {
+      "message": "Spoken Word"
+   },
+   "trebleBooster": {
+      "message": "Treble Booster"
+   },
+   "trebleReducer": {
+      "message": "Treble Reducer"
+   },
+   "vocalBooster": {
+      "message": "Vocal Booster"
+   }
+}

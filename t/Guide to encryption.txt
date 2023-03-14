@@ -1,0 +1,40 @@
+Encryption is a familiar concept, and a very important one too. Today, encryption often needed, and as the need for encryption grows, I shall write a guide to encryption for better understandings and use of encryption.
+
+What is the ultimate goal of encryption? Of course, to contain information. More specifically, to contain information in such a way that only through knowing a certain key, or understanding the method of how the information is encrypted, can the information then be decrypted.
+
+It looks like encryption is very closely related to information security in general. If you want your information to be "secure", you could:
+1. Destroy it
+2. Hide it as well as you can
+3. Encrypt it as well as you can
+
+These are the only three ways, and you know that the first two are not so suitable: you can't destroy something you want to send, and hidden things are, at most times, ultimately found. So, we'll focus on encrypting it as well as we can.
+
+If you want a room to be secure, you have many things to consider.
+1. How many locks does the door have?
+2. Is the lock strong?
+3. How much time does it take to unlock the door?
+4. Are the keys hidden well enough?
+5. Can someone break down the door?
+6. Can someone break down the walls?
+...
+
+1. a comparison table.
+To do this just match characters with their corresponding characters.
+"Hello world!" -> "Muiik jkwiq+"
+
+2. add variability to characters.
+To do this you can make different comparison tables for each character in a position.
+"Hello world!" -> "Csvdf ifgsj/"
+Realize now that 'l' does not mean 'i' anymore; it can mean 'v' or 'd' or 's', depending on the position it was used.
+
+3. more character range.
+To do this use a wider range of characters. In fact, as wide as you want.
+"Hello world!" -> "?1>`- xIoem="
+Realize now the characters are more diverse. 'l' could mean '>' or '`' or 'e' now, depending on the position it was used.
+
+4. encode spaces too.
+Encoding the spaces are also needed, you know.
+"Hello world!" -> "(#@Ji@20{;?)Q"
+Realize now spaces are encoded too.
+
+Now, people would never know what "(#@Ji@20{;?)Q" means unless they know how it is encrypted.

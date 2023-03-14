@@ -1,0 +1,104 @@
+{
+   "acoustic": {
+      "message": "Acoustic"
+   },
+   "bassBooster": {
+      "message": "Bass Booster"
+   },
+   "bassReducer": {
+      "message": "Bass Reducer"
+   },
+   "block_capture": {
+      "message": "మీరు ఇప్పటికే ఒక ట్యాబ్ను స్వాధీనం చేసుకున్నారు"
+   },
+   "classical": {
+      "message": "Classical"
+   },
+   "club": {
+      "message": "Club"
+   },
+   "custom": {
+      "message": "Custom"
+   },
+   "dance": {
+      "message": "Dance"
+   },
+   "electronic": {
+      "message": "Electronic"
+   },
+   "eq_capture_tab": {
+      "message": "ఈ టాబ్ని క్యాప్చర్ చేయండి"
+   },
+   "eq_default_title": {
+      "message": "Sound Equalizer"
+   },
+   "eq_description": {
+      "message": "వాల్యూమ్ నియంత్రణ మరియు సంగీత కళా ప్రక్రియల ప్రీసెట్లుతో సులువుగా ఉపయోగించడానికి ఆడియో సమం."
+   },
+   "eq_name": {
+      "message": "సౌండ్ ఈక్వలైజర్"
+   },
+   "eq_popup_btn_reset": {
+      "message": "రీసెట్"
+   },
+   "eq_popup_btn_save": {
+      "message": "Save"
+   },
+   "eq_popup_preset": {
+      "message": "అమరికలు:"
+   },
+   "eq_popup_title": {
+      "message": "Equalizer preset"
+   },
+   "eq_shortname": {
+      "message": "Sound Equalizer"
+   },
+   "eq_show_tab": {
+      "message": "టాబ్కు వెళ్లండి"
+   },
+   "jazz": {
+      "message": "Jazz"
+   },
+   "latin": {
+      "message": "Latin"
+   },
+   "loudness": {
+      "message": "Loudness"
+   },
+   "lounge": {
+      "message": "Lounge"
+   },
+   "piano": {
+      "message": "Piano"
+   },
+   "pop": {
+      "message": "Pop"
+   },
+   "power_off": {
+      "message": "OFF"
+   },
+   "power_on": {
+      "message": "ON"
+   },
+   "rnb": {
+      "message": "Rnb"
+   },
+   "rock": {
+      "message": "Rock"
+   },
+   "smallSpeakers": {
+      "message": "Small Speakers"
+   },
+   "spokenWord": {
+      "message": "Spoken Word"
+   },
+   "trebleBooster": {
+      "message": "Treble Booster"
+   },
+   "trebleReducer": {
+      "message": "Treble Reducer"
+   },
+   "vocalBooster": {
+      "message": "Vocal Booster"
+   }
+}

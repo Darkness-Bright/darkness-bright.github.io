@@ -1,0 +1,104 @@
+{
+   "acoustic": {
+      "message": "Acoustic"
+   },
+   "bassBooster": {
+      "message": "Bass Booster"
+   },
+   "bassReducer": {
+      "message": "Bass Reducer"
+   },
+   "block_capture": {
+      "message": "คุณได้บันทึกแท็บหนึ่งแล้ว"
+   },
+   "classical": {
+      "message": "Classical"
+   },
+   "club": {
+      "message": "Club"
+   },
+   "custom": {
+      "message": "Custom"
+   },
+   "dance": {
+      "message": "Dance"
+   },
+   "electronic": {
+      "message": "Electronic"
+   },
+   "eq_capture_tab": {
+      "message": "จับภาพแท็บนี้"
+   },
+   "eq_default_title": {
+      "message": "Sound Equalizer"
+   },
+   "eq_description": {
+      "message": "ควอไลเซอร์เสียงที่ใช้งานง่ายพร้อมการควบคุมระดับเสียงและตั้งค่าเพลงล่วงหน้า"
+   },
+   "eq_name": {
+      "message": "เสียงควอไลเซอร์"
+   },
+   "eq_popup_btn_reset": {
+      "message": "รีเซ็ต"
+   },
+   "eq_popup_btn_save": {
+      "message": "Save"
+   },
+   "eq_popup_preset": {
+      "message": "ที่ตั้งไว้ล่วงหน้า:"
+   },
+   "eq_popup_title": {
+      "message": "Equalizer preset"
+   },
+   "eq_shortname": {
+      "message": "Sound Equalizer"
+   },
+   "eq_show_tab": {
+      "message": "ไปที่แท็บ"
+   },
+   "jazz": {
+      "message": "Jazz"
+   },
+   "latin": {
+      "message": "Latin"
+   },
+   "loudness": {
+      "message": "Loudness"
+   },
+   "lounge": {
+      "message": "Lounge"
+   },
+   "piano": {
+      "message": "Piano"
+   },
+   "pop": {
+      "message": "Pop"
+   },
+   "power_off": {
+      "message": "OFF"
+   },
+   "power_on": {
+      "message": "ON"
+   },
+   "rnb": {
+      "message": "Rnb"
+   },
+   "rock": {
+      "message": "Rock"
+   },
+   "smallSpeakers": {
+      "message": "Small Speakers"
+   },
+   "spokenWord": {
+      "message": "Spoken Word"
+   },
+   "trebleBooster": {
+      "message": "Treble Booster"
+   },
+   "trebleReducer": {
+      "message": "Treble Reducer"
+   },
+   "vocalBooster": {
+      "message": "Vocal Booster"
+   }
+}

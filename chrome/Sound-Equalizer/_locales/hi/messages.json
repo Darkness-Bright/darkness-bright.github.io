@@ -1,0 +1,104 @@
+{
+   "acoustic": {
+      "message": "Acoustic"
+   },
+   "bassBooster": {
+      "message": "Bass Booster"
+   },
+   "bassReducer": {
+      "message": "Bass Reducer"
+   },
+   "block_capture": {
+      "message": "आप पहले से ही एक टैब पर कब्जा कर लिया है"
+   },
+   "classical": {
+      "message": "Classical"
+   },
+   "club": {
+      "message": "Club"
+   },
+   "custom": {
+      "message": "Custom"
+   },
+   "dance": {
+      "message": "Dance"
+   },
+   "electronic": {
+      "message": "Electronic"
+   },
+   "eq_capture_tab": {
+      "message": "इस टैब को कैप्चर करें"
+   },
+   "eq_default_title": {
+      "message": "Sound Equalizer"
+   },
+   "eq_description": {
+      "message": "वॉल्यूम कंट्रोल और संगीत शैलियों प्रीसेट के साथ उपयोग में आसान ऑडियो तुल्यकारक।"
+   },
+   "eq_name": {
+      "message": "ध्वनि तुल्यकारक"
+   },
+   "eq_popup_btn_reset": {
+      "message": "रीसेट"
+   },
+   "eq_popup_preset": {
+      "message": "प्रीसेट:"
+   },
+   "eq_popup_btn_save": {
+      "message": "Save"
+   },
+   "eq_popup_title": {
+      "message": "Equalizer preset"
+   },
+   "eq_shortname": {
+      "message": "Sound Equalizer"
+   },
+   "eq_show_tab": {
+      "message": "टैब पर जाएं"
+   },
+   "jazz": {
+      "message": "Jazz"
+   },
+   "latin": {
+      "message": "Latin"
+   },
+   "loudness": {
+      "message": "Loudness"
+   },
+   "lounge": {
+      "message": "Lounge"
+   },
+   "piano": {
+      "message": "Piano"
+   },
+   "pop": {
+      "message": "Pop"
+   },
+   "power_off": {
+      "message": "OFF"
+   },
+   "power_on": {
+      "message": "ON"
+   },
+   "rnb": {
+      "message": "Rnb"
+   },
+   "rock": {
+      "message": "Rock"
+   },
+   "smallSpeakers": {
+      "message": "Small Speakers"
+   },
+   "spokenWord": {
+      "message": "Spoken Word"
+   },
+   "trebleBooster": {
+      "message": "Treble Booster"
+   },
+   "trebleReducer": {
+      "message": "Treble Reducer"
+   },
+   "vocalBooster": {
+      "message": "Vocal Booster"
+   }
+}

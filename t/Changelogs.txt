@@ -1,0 +1,43 @@
+Changelogs are now a very important part of monitoring progress on a project for me.
+
+Most times when a task is being done, we try to do the task as best as we can, while keeping in mind how much there is still left to do. This is pretty straightforward, and  gets the job done. If any problems occur in the process, you work hard and try to solve them. If you're not able though, the task needs to be started over again. In worst cases, all your work would be ruined by that problem while you still don't know how to fix it.
+
+A changelog is useful for long tasks, which would likely contain lots of problems. One example is when you set up something like a website. At the beginning, things would go on quite smoothly, until the inevitable happened - a very peculiar error occured, and there seems that there's no logical explanation for the problem. If you kept a changelog, along with backups of your system, things would be fine.
+
+To make a changelog, all you would need is to create a new text file, and then describe the steps you have done, what changes you have made, and how different it is from other versions described in your changelog.
+
+Look at the following example:
+
+
+###########################
+2.4.0
+###########################
+Apache2 and pihole are installed, but they both not work since docker was just installed. Node.js working. Python3 is installed, and many pip3 modules are there. 
+All the apps are working fine, and the UI is good.
+
+########################
+2.4.1
+########################
+All the same as 2.4.0 except:
+httpd (apache) built in docker and launches by autostar
+pihole image in docker built
+auto-mounts "mark" SMB drive to desktop/mark
+
+# 2.4.1-1
+Uninstalling docker failed and broken things. Abort.
+
+# 2.4.1-2
+Desktop broken. Abort.
+
+########################
+2.4.2
+########################
+All the same as 2.4.0 except:
+pihole uninstalled
+telegram uninstalled
+docker installed but unactivated
+
+
+In this case, 2.4.0, 2.4.1 and 2.4.2 were successful steps, so we backup those points for future restoration if needed. The unsuccessful steps were based on the successful steps, and therefore could be easily aborted if things went wrong. With a changelog, we can always look back on each of the successful steps we had done and fork some of them to make other versions.
+
+With this system of backing up, there wouldn't be any more fatal mistakes, and we can achieve the impossible step by step...

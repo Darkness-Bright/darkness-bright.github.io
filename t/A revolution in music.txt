@@ -1,0 +1,24 @@
+Music makes up a considerable part of people's entertainment. For quite along time, musicians have been working very hard to make music, using all kinds of ways to make the music as immersive as possible. Most times, music is written in standard notation, the most common form of storing music, storing the pitch, start time and duration of every note. But there are many ways to store music, and 
+
+People buy music in many forms, and when they bought that music, they could use them by listening to them or by using them as a reference for playing their own music. For example, people have been buying tapes and records for a long time now, and the way they use them is... to jam them into their players or, if they liked to make music, to analyze them with one of those complicated music-editing software.
+
+In the last few decades, music surely has changed a lot. Take a peek at those machines used by DJs, for example. Machine learning is also a recent revolutionary product, and it would also change music significantly. And, .midi files are able to store, like, tons of information about a particular piece of music.
+
+But music is actually a simple thing. There are tons and tons of software developed that are devoted to generating, editing and playing music, and they ultimately do the same thing: process a matrix, and process it even more to export it as a finished product, like a .mp3 file.
+
+Numbers. That's what music is, and ultimately what everything is.
+
+Now, music is a multi-dimensioned thing. What do I mean? You see, if multiple inputs are required to produce an output, it's called a multivaraible functinon. To make a person recognize a song, what would you have to do? You could give them a standard notation music sheet, and they would be able to get the gist of what the music would sound like. Using a music player and playing the music also works. But try this: create a matrix:
+{
+[32,23,56,34,76,35,34,23,54,23,12,34,43,54,23,64...],
+[04,06,04,06,04,04,04,02,02,02,08,08,04,03,03,03...]
+}
+This is a very simple way to store some music. But, like all matrices, it needs to be decoded. What does the "32" mean? 32 milliseconds? 32 Hz? The program knows exactly what those values are, and would be able to perform all kinds of calculations on the music. Raise all notes by half a step? Insert all the values into a function and it is done. The best thing about storing music like this is that the music takes up very little storage. But the downside is that this couldn't be interpreted unless you have a program, or you know what those columns and rows mean.
+
+I know, two rows of integers are not able to interpret something like, say, a jazz song. For this method, emotions and mood changes in the music would become almost impossible to interpret, unless of course, the matrix is a billion columns long, which defenitely would be capture every single byte of the pitches, starting times and durations flawlessly.
+
+Even with a very very long two-rowed matrix, we are not able to capture the whole song. How do we represent the drum beats in the song? How loud was each of the drum beats? What was the tone of the drum? (Does it sound like it's made of leather or something else?)... What would be stored in a .mp3 file would take tons of rows in order for it to be integrated into a single matrix.
+
+But it's possible, and when it's done, editing music would be highly versatile, and, with the help of machine learning, highly automatic and intelligent...
+
+So, ultimately, songs should be stored as matrices. Big, fat ones.

@@ -1,0 +1,1 @@
+class Instance{constructor(){}static isInstance(){if(0==Core.load("instance"))return window.onunload=function(){Core.save("instance",!1)},Core.save("instance",!0),!0}}

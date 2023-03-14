@@ -1,0 +1,11 @@
+When we think about "good" websites, we mean that they are useful to us. A website can be useful in many ways... A website that teaches you skills may be good, or a website that is a very great source of information or a website that provides tools, like translation services or file conversion services. But ultimately, we're talking about how useful the website is to us.
+
+Well, what makes a website as useful as possible? It's all about functianality and accessibility.
+
+The functionality is the most important part, of course. The website needs to be able to provide good services, like a file storage website must be able to process big uploads from users, provide download options for users, and also provide information other websites can access. Also, the upload/download speeds need to be as fast as possible. That's the functionality part.
+
+Accessibility is almost as important as functionality. If you have a website that has very good functionality, but the website's layout makes it hard for users to use, the website would not be easily usable. Sometimes, users would prefer easy-to-use rather than faster websites.
+
+For websites that are a source of information, the information should be easy to find. Many websites are informative websites that contain thousands of narratives and tutorials. Forums are also a common source of    imformation in the form of posts. For these websites, having a advanced searchbar for searching for content is necessary. To achieve this, the search bar must have many options, including searching by tags, time posted, category, content, or author, and is able to hide results of a particular trait and sort by date, time or views. However, many of these websites do not have an advanced search bar, making it not so convienient for the users to view the content they like.
+
+Very few websites can change dynamically. In those websites, various layout components (like the width of banners, preferred text size, color schemes, window layouts, buttons etc.) could be altered using the settings page, and the preferences are saved. These websites are very dynamic, and are really accessible.

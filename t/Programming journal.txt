@@ -1,0 +1,235 @@
+##########
+Mon 18 Jul
+##########
+Put node.js file and index.css, index.html, and index.js all together in the same directory
+
+The node.js is now able to present the index.html file
+
+The server now features selecting a single file from local computer, uploading and putting them in a particular directory
+
+Deleted all contents of index.js
+
+While trying to make drap and drop possible, read this article
+https://www.w3schools.com/html/html5_draganddrop.asp
+
+It was no use...
+
+But this is quite a complete tutorial.
+https://www.smashingmagazine.com/2018/01/drag-drop-file-uploader-vanilla-js/
+I was... looking forward to another approach with node.js, not this.
+
+This one looks good
+https://www.prowaretech.com/articles/current/javascript/node-js/drag-n-drop-file-upload#:~:text=NodeJS%3A%20Drag%20and%20Drop%20File%20Upload,-Use%20AJAX%20and&text=js.,progress%20bar%20for%20the%20upload.
+It uses express, though. And this is not as simple as the "formidable" module in node.
+
+Sometimes things are hard.
+Looks like nobody has made a very good onw with formadable yet. I shall be the first.
+
+##########
+Thu 15 Sep
+##########
+
+Deep learning models arer usually more powerful.
+The non-linearity makes predictions more... unpredictable.
+
+Went through deep learning introduction: Video 1 to Video 5
+
+##########
+Fri 16 Sep
+##########
+
+Changeing the weights of the layers are essential for learning.
+
+Went through deep learning introduction: Video 6 to Video 10
+
+
+##########
+Mon 19 Sep
+##########
+
+Deep learning introduction : Video 10 to 14
+
+Made my fist AI.
+Should be available at https://github.com/Cheerstoast/Binary-predictions
+
+##########
+Tue 20 Sep
+##########
+
+FreeCodeCamp: machine learning with python
+
+Reviewed today
+
+went here for image classification instructions: https://colab.research.google.com/github/freeCodeCamp/boilerplate-cat-and-dog-image-classifier/blob/master/fcc_cat_dog.ipynb
+
+Made image binary classifier: see https://colab.research.google.com/drive/1RrUlxGEdnF7-6m5ng5vw2Upqq5MMGXxQ?usp=sharing
+
+##########
+Wed 21 Sep
+##########
+
+Today I will try to learn Natural language processing, especially with machine learning.
+
+This video is promising:
+https://www.youtube.com/watch?v=VtRLrQ3Ev-U
+
+Watched first half of the video...
+
+##########
+Thu 22 Sep
+##########
+
+Watched second half of the video. It turns out the model is not such good, since it does not work well and it still uses binary classification. I was looking forward to find a way to predict an integer or float as output, but still don't know how.
+
+##########
+Fri 23 Sep
+##########
+
+Took a while to find resources, and then found three books titled "Deep Learning for Computer Vision with Python", stage 1, 2 and 3. 
+
+Started on book 1, but did not get far. These will be plenty to read for next week...
+
+
+##########
+Mon 26 Sep
+##########
+
+Deep Learning for Computer Vision with Python 1.pdf: Read to page 54
+
+Inside this chapter we learned what image classification is and why it’s such a challenging task for computers to perform well on (even though humans do it intuitively with seemingly no effort). We then discussed the three main types of machine learning, supervised learning, unsupervised learning, semi-supervised learning – this book primarily focuses on supervised learning where we have both the training examples and the class labels associated with them. Semi-supervised learning and unsupervised learning are both open areas of research for deep learning.
+
+##########
+Tue 27 Sep
+##########
+
+Deep Learning for Computer Vision with Python 1.pdf: Read to page 112
+
+To improve our classification accuracy, we need to tune the parameters of our weight matrix W or bias vector b. Exactly how we go about updating these parameters is an optimization problem, which we’ll be covering in the next chapter. For the time being, simply understand that a loss function can be used to quantify how well our scoring function is doing at classifying input data points.
+
+Ideally, our loss should decrease over time as we tune our model parameters. As Figure 8.4 demonstrates, Model #1’s loss starts slightly higher than Model #2, but then decreases rapidly and continues to stay low when trained on the CIFAR-10 dataset. Conversely, the loss for Model #2 decreases initially but quickly stagnates. In this specific example, Model #1 is achieving lower overall loss and is likely a more desirable model to be used on classifying other images from the CIFAR-10 dataset.
+
+##########
+Mon 9 Jan
+##########
+
+# How to create python virtual environments (venv)
+
+# If not already installed:
+apt install python3-venv
+
+# Navigate to desired project folder.
+# Create venv folder with:
+python -m venv venv
+
+# When working with a virtual environment, activate it with:
+source venv/bin/activate
+
+
+
+# Basic Flask
+
+# Create file hello.py:
+
+    from flask import Flask app = Flask(__name__)
+    @app.route('/')
+    def index():
+    return '<h1>Hello World!</h1>'
+
+# To run flask:
+export FLASK_APP=hello.py
+# If enable auto-refresh and debug:
+export FLASK_DEBUG=1
+
+flask run
+
+# The output should be like this:
+* Serving Flask app "hello"
+* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+Attribute or Method
+form: A dictionary with all the form fields submitted with the request.
+args: A dictionary with all the arguments passed in the query string of the URL.
+values: A dictionary that combines the values informandargs.
+cookies: A dictionary with all the cookies included in the request.
+headers: A dictionary with all the HTTP headers included in the request.
+files: A dictionary with all the file uploads included with the request.
+get_data(): Returns the buffered data from the request body.
+get_json(): Returns a Python dictionary with the parsed JSON included in the body of the request.
+blueprint: The name of the Flask blueprint that is handling the request. Blueprints are introduced in Chapter 7.
+endpoint: The name of the Flask endpoint that is handling the request. Flask uses the name of the view function as the endpoint name for a route.
+method: The HTTP request method, such as GET or POST.
+scheme: The URL scheme (http or https).
+is_secure(): Returns True if the request came through a secure (HTTPS) connection.
+host: The host defined in the request, including the port number if given by the client.
+path: The path portion of the URL.
+query_string: The query string portion of the URL, as a raw binary value.
+full_path: The path and query string portions of the URL.
+url: The complete URL requested by the client.
+base_url: Same as url, but without the query string component.
+remote_addr: The IP address of the client.
+environ: The raw WSGI environment dictionary for the request.
+status_code: The numeric HTTP status code
+headers: A dictionary-like object with all the headers that will be sent with the response
+set_cookie(): Adds a cookie to the response
+delete_cookie(): Removes a cookie
+content_length: The length of the response body
+content_type: The media type of the response body
+set_data(): Sets the response body as a string or bytes value
+get_data(): Gets the response body
+
+
+# Use file as html template
+from flask import Flask, render_template
+app = Flask(__name__)
+@app.route('/') def index():
+return render_template('index.html')
+@app.route('/user/<name>') def user(name):
+return render_template('user.html', name=name)
+
+
+
+# Handle 404 and 500 status:
+
+@app.errorhandler(404)
+def page_not_found(e):
+return render_template('404.html'), 404
+
+@app.errorhandler(500)
+def internal_server_error(e):
+return render_template('500.html'), 500
+
+
+# Localization of dates and times:
+
+pip install flask-moment
+
+from flask_moment import Moment moment = Moment(app)
+
+
+# Flask-WTF
+
+# It is pre-installed.
+
+app = Flask(__name__)
+app.config['SECRET_KEY'] = 'The very very very secret key'
+
+
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField
+from wtforms.validators import DataRequired
+
+class NameForm(FlaskForm):
+name = StringField('What is your name?', validators=[DataRequired()])
+submit = SubmitField('Submit')
+
+
+
+
+
+
+
+
+
+
+
+

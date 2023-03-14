@@ -1,0 +1,19 @@
+Language detection and processing in computers have been studied for a long time, and in recent years they developed fascinating abilities. In the process, through AI and deep learning, we are able to determine which languages are the most efficient, clearest and easiest to learn.
+
+Recently, some rather developed open source projects were able to do language detection and analysis, and they were generous enough to share some of their training data and efficiencies of their models. According to the data provided by OpenAI, their open source models for "whisper" project has a word error rate of 3.5% for Spanish, 4.5% for English, 6.4% for Japanese, 15.2% for Korean, 19.6% for Chinese, 25.5% for Hindi and 42.6% for Icelandic.* This means that the AI gets 96.5% of the words right when it hears Spanish, while it could only get 57.4% of the words right when it hears Icelandic.
+
+This is not exactly precise information though, since the training of the model is probably based on primarily English sources, and the model must have found Icelandic hard to understand. Nevertheless, this method gives us a rather accurate approximation of the clarity of languages when they are spoken.
+
+Similarly, we could make different machine learning models, each dedicated to understanding one language. By looking at how many times the model has to train for to understand the language well, we would know how complicated the language is and how hard it is to learn them.
+
+As for the efficiency of languages, that could be determined by analyzing how much time, on average, for a sentence to be said. This is rather straightforward and needs no further explanations.
+
+As it turns out, there are huge differences in these aspects of our languages, with tradeoffs between efficiency and accuracy.
+
+By looking at how many times the model has to train for to understand the language well, we would know how complicated the language is and how hard it is to learn them.As for the efficiency of languages, that could be determined by analyzing how much time, on average, for a sentence to be said. This is rather straightforward and needs no further explanations, we are able to determine which languages are the most efficient, clearest and easiest to learn.
+
+English seems to be one of those languages that are competent in each of these standards, and that's why so many people know English. I'm sure there are other languages too that could be more efficient than English, but most people have already settled on English, like how people settled with QWERTY keyboards, even though it is not the most efficient keyboard layout...
+
+These data gives us something to consider: should we make another universal language that would be as efficient, clear and easy to learn as possible? Or would we stay with English, the language in which almost all of the software in the world is made with? When it comes to machine learning, it's all just numbers, so, what meaning does languages have to AI?
+
+* Source: https://raw.githubusercontent.com/openai/whisper/main/language-breakdown.svg

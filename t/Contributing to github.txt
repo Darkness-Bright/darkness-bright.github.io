@@ -1,0 +1,11 @@
+Now, github is the largest code repository in the world, with many contributors and even more users. It is a website for developers and by developers, but with simple or detailed enough instructions, anyone could learn how to use a project in github.
+
+Most times, developers would make a program, sometimes a very complicated program, and then publish the code repository publically. Whenever someone needs to achieve a certain thing, they would search in github for any projects that could help them. Maybe they needed a solution for doing a certain thing in their own project, and needs to implement it in their project too.
+
+This system is very efficient, and saves developers lots of time. The world's software is becoming more and more complex as developers work together to make useful projects, which might be used for another even more complicated project. This made many people learn about software engineering, which further increased the number of projects on github.
+
+Many contributors to github are developers, but some are just amateur coders, who make things of their own and giving them out if they are needed elsewhere. For most people, contributing to github is a fun thing: not only is it contenting to know that others appreciated your work, it is also quite interesting (also fustrating) while making the project. Some people make projects on github and then ask for donation if people were generous enough. 
+
+When someone makes a project, either they wanted to find a solution for themselves, and helping others too in the process, or they think that the project would be really useful for many people. Many people learn about software engineering, which further increased the number of projects on github. Many contributors to github are developers, but some are just amateur coders, who make things of their own and giving them out if they are needed elsewhere. 
+
+Developing software has its fascinations. How could the world of ones and zeros be such diverse? Soon, github would boom with software, made by those who share, not sell.

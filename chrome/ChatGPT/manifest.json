@@ -1,0 +1,36 @@
+{
+  "name": "Search engine ChatGPT",
+  "description": "Display ChatGPT response alongside Search Engine results",
+  "version": "1.10.1",
+  "manifest_version": 3,
+  "host_permissions": ["https://*.openai.com/"],
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "include_globs": [
+        "https://*.google.*/*",
+        "https://kagi.*/*",
+        "https://*.bing.*/*",
+        "https://*.yahoo.*/*",
+        "https://*.naver.*/*",
+        "https://*.brave.*/*",
+        "https://*.ecosia.*/*",
+        "https://searx.*/*",
+        "https://www.searx.*/*",
+        "https://yandex.*/*",
+        "https://duckduckgo.*",
+        "https://*.startpage.*/*",
+        "https://*.baidu.*"
+      ],
+      "js": ["content-script.js"],
+      "css": ["content-script.css"]
+    }
+  ]
+}

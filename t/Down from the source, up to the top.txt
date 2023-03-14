@@ -1,0 +1,15 @@
+Computer hardware and software is the one field of technology that people have been working very hard on for a lot of years. From the most basic computers ever invented to the commercial computers today, there has been many many improvements and modifications, both to the software and to the hardware.
+
+As for the hardware, it's quite simple: the better the performance, the better the hardware is. Nowdays the best hardware has gone to fantastic levels, powered by the many discoveries and designs of engineers and scientists.
+
+But the software, that's where it gets very different. Software is quite the abstract thing. Consider a strand of DNA, it is a physical and chemical store of information, which contains all the things about an organism. It's the closest thing the natural world has to software. We developed hard disks that store information bit by bit. Every single bit needs to have its own "living space", and the reason why we make them is so that they could be read and used.
+
+Think about the very beginning of software. No programming language at all? Then you'll have to make one, then. Out of what? Bits? How? Does anybody know at all?
+
+And then came languages like BASIC and CPL, which were designed by some very smart people. They successfully made a system where people would be able to send useful data to machines with ones and zeros, which the computer is able to analyze (how?). This procedure is very very hard, and it's a wonder people have done that.
+
+Look at the programming languages today, how were they made and what were they based on? These programming languages ultimately gets translated into ones and zeros, because that's what computers can work with. Efficiency is denifitely not guaranteed. When you compare a BASIC program and a PYTHON program that does the exact same thing, the BASIC program would be faster. If programming languages keep on upgrading, then surely there will be more features, but it leads to a loss of efficiency.
+
+Open up a website. You know how many ones and zeroes are sent inside your computer? How many of those are run by your browser? How many of those are for displaying on your screen? How many are for monitoring your mouse and keyboard interactions? And how much more data is processed in the website's server?
+
+But, really. Computer hardware is getting really powerful, while better software made better looking user interfaces for us. One day computers would go up to the top, and then... They don't need anybody no more. The one that can do more calculations per second is the most superior one.

@@ -1,0 +1,15 @@
+Longevity is a very important aspect for all things. I'll not bore anyone with the introductions, but the result is that we are still not able to find a way to make things survive very long.
+
+Time, it has been said, cures everything. For the universe, every single thing seems to be happening very quickly. If you are the universe, you would see many civilizations rise up, do millions of extraordinary things, and then gradually falter to its end, all in the blink of an eye. This means that in order for something to be important to the universe, it would simply have to have more longevity. As much as possible.
+
+One way how longevity would be extended is to have some fallbacks. In fact, as many fallbacks as possible. A simple example: when your battery is dead you put a packup battery on it. And it works. Just like new. Until you use up the second one too. A slightly more complicated one is when the electricity is down for a whole week. You would probably either decide to install solar panels or generate your own electricity instead.
+
+Most times, we only make fallbacks or important things, and we only make one fallback. What would you do, if things were more complicated?
+
+Let's say you have a monster truck, you put it on mars and you want to drive a full trip around mars. That is unimaginably long, and filled with unexpected events.
+
+You would probably immediately start thinking about the challenges that might occur, and find fallbacks for them. Think. What exactly would you need? You might already start calculating how many days it would take to make it. If you drove without stopping at 100km/h, you would arrive in approximately 9 days. If you rest 8 hours each day, you would do it in 14 days. But the road is dangerous, and you never know what might go wrong with your monster truck. Unexpected things could happen, things may break, and fuel is a big problem.
+
+Basically, it's a huge feat, and huge feats need huge plans. If you do not have everything considered and haven't considered one fallback, it's a fail. You might need to bring a backup tyre, maybe two, maybe three. You fuel usage might be more than you expect, and how are you supposed to know what to do when the engine ignition system fails? Surely some parts of the truck would break sooner than others...
+
+That leads to the concept of: every part of the whole should fail at the same time. When the GPU breaks, the laptop is broken, and when the CPU breaks, the laptop is definitely broken. Well, nobody likes laptops that have CPU working but GPU broken... So if it takes 20 years for the CPU to break and only 15 years for the GPU to break, the GPU will fail first and the laptop's life was 15 years. Maybe the screen would break in just 10 years...
