@@ -1,0 +1,1 @@
+<a href="https://github.com/darkness-bright"><img align="center" src="https://github-readme-stats.vercel.app/api?username=darkness-bright&show_icons=true&include_all_commits=true&hide=issues,contribs&theme=transparent&hide_border=true&border_radius=27&bg_color=fff&title_color=000&text_color=000&icon_color=000"/></a>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Darkness-Bright</title>
+<meta content="Darkness-Bright" property="og:title"/><meta content="Darkness-Bright project: the universe, the story, the game." property="og:description"/><meta content="https://darkness-bright.github.io" property="og:url"/><meta property="og:type" content="website"/><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="theme-color" content="#ffffff"><meta content="/Darkness-Bright.jpg" property="og:image"/><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="stylesheet" type="text/css" href="/index.css"/><script defer type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script><script defer nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script><script defer src="/isparticles.js"></script><script defer src="/index.js"></script>
+<script>
+MathJax={
+  loader:{load:['[tex]/textmacros'],
+  },
+  tex:{
+    packages: {'[+]': ['textmacros'],
+  },
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js"></script>
+</head>
+
+<body>
+<!-- main -->
+<main>
+  <!-- navigation bar -->
+  <nav id="nav">
+    <!-- picture -->
+    <a href="/" class="nav-link"><img src="/Darkness-Bright.jpg" alt=""></a>
+    <!-- links -->
+    <div class="links">
+      <a href="#about" class="nav-link"><span>about</span></a>
+      <a href="#updates" class="nav-link"><span>updates</span></a>
+      <a href="https://github.com/darkness-bright" target="_blank" class="nav-link"><span>github</span></a>
+      <!-- theme button -->
+      <ion-icon onclick="theme();" class="theme"></ion-icon>
+    </div>
+  </nav>
+  <!-- if not enough space for nav, show logo and menu (hamburger) -->
+  <a href="#about" class="logo"><img src="/Darkness-Bright.jpg" alt=""></a><div class="hamburger" onclick="nav();"><div class="line line-1"></div><div class="line line-2"></div></div>
+
+  <!-- landing page -->
+  <section id="landing">
+    <h1>Darkness-Bright project</h1>
+    <p>the universe, the story, the game.</p>
+  </section>
+
+  <!-- about -->
+  <section id="about">
+    <p>a python program about the universe, our story, and why we are here</p>
+    <p>the purpose of this project is to make people think about the purpose of the world, while enjoying and participating in a story.</p>
+    <p>you could look at the <a href="https://object0.repl.co" target="_blank" style="text-decoration: underline;">progress log</a></p>
+    <p>now i am trying to compose a few stories related to the characters and settings in the game.</p>
+  </section>
+  
+  <section><p>i also made a really nice <a href="https://discord.gg/2a3PdPUmJd" target="_blank" style="text-decoration: underline;">discord server</a></p></section>
+  
+  <!-- updates -->
+  <section id="updates" class='log'>
+    <p>compoing a few stories related to the characters and settings in the game..</p>
+    <p>finding a way to play a .mid file, without installing any packages ... failed</p>
+    <p>finding a way to store all objects in file, and load them back later ... done</p>
+    <p>making algorithm to generate altitudes, and other values, for places in the game ... done</p>
+  </section>
+  
+</main>
+<!-- footer -->
+<footer>
+  <p>&copy; 2023 Darkness-Bright</p>
+  <div class="icons">
+    <a href="https://github.com/darkness-bright" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+    <a href="https://discord.gg/2a3PdPUmJd" target="_blank"><ion-icon name="logo-discord"></ion-icon></a>
+  </div>
+</footer>
+</body>
+</html>
