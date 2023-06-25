@@ -1,3 +1,5 @@
+// scroll to top on reload
+window.onbeforeunload=function(){window.scrollTo(0,0);}
 function dark(){localStorage.setItem("theme", "dark");document.body.classList.remove("light");document.body.classList.add("dark");document.querySelector(".theme").setAttribute("name","sunny");}
 function light(){localStorage.setItem("theme", "light");document.body.classList.remove("dark");document.body.classList.add("light");document.querySelector(".theme").setAttribute("name","moon");}
 
